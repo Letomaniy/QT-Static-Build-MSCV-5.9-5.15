@@ -2,23 +2,36 @@
 
 ## Необходимые компоненты
 
-- Visual Studio 2017 или 2019
+- Online installer(https://www.qt.io/download-qt-installer?hsCtaTracking=99d9dd4f-5681-48d2-b096-470725510d34%7C074ddad0-fdef-4e53-8aa8-5e8a876d6ab4)
+- Visual Studio 2017 или 2019(https://visualstudio.microsoft.com/ru/downloads/)
 - Исходники Qt
+- Active Perl последней версии
+- Python 2.7+
 
 ## Порядок сборки
 
-1. Открываем x64 Native Tools Command Prompt
+1. Скачиваем QT Online Installer(https://www.qt.io/download-qt-installer?hsCtaTracking=99d9dd4f-5681-48d2-b096-470725510d34%7C074ddad0-fdef-4e53-8aa8-5e8a876d6ab4):
+//Изображение
+
+
+2. Запускаем и путём нажатия "Далее" попадаем на это окно(изображение ниже)(смотрим на установленные галочки)(Версия qt 5.9-5.15):
+
+//Изображение с галочками
+
+
+3. Устанавливаем с стандартными настройками Perl и Python
+4. Открываем x64 Native Tools Command Prompt
 
    ![](images/01.png)
 
-2. Создаем папку для сборки
+5. Создаем папку для сборки
 
    ```shell script
    mkdir build
    cd build
    ```
 
-3. Запускаем конфигурационный скрипт
+6. Запускаем конфигурационный скрипт
 
    ```shell script
    <Путь до исходников Qt>\configure.bat -debug-and-release -static -static-runtime -opensource -confirm-license -platform win32-msvc -qt-zlib -qt-libpng -qt-libjpeg -nomake examples -nomake tests -no-opengl -skip qtscript -prefix "C:\Qt\5.12.2-msvc"
@@ -37,13 +50,13 @@
    - `static`, `static-runtime` - включить статическую компоновку Qt и runtime
    - `prefix <prefix>` - путь до папки, в которую будут скопированы откомпилированные файлы Qt
 
-4. Запускаем сборку Qt (займет достаточно много времени)
+7. Запускаем сборку Qt (займет достаточно много времени)
 
    ```shell script
    nmake
    ```
 
-5. Устанавливаем Qt
+8. Устанавливаем Qt
 
    ```shell script
    nmake install
