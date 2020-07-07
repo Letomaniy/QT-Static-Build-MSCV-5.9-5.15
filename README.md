@@ -27,7 +27,7 @@
 
 3. Устанавливаем с стандартными настройками Perl и Python
 
-4. Открываем x64 Native Tools Command Prompt
+4. Открываем x64 Native Tools Command Prompt for VS 2019
 
    ![](images/01.png)
 
@@ -148,7 +148,7 @@
 
 3. Install with default settings Active Perl and Python
 
-4. Open x64 Native Tools Command Prompt
+4. Open x64 Native Tools Command Prompt for VS 2019 
 
    ![](images/01.png)
 
