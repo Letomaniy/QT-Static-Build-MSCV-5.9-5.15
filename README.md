@@ -29,7 +29,7 @@
 
 4. Открываем x64 Native Tools Command Prompt for VS 2019
 
-   ![](images/01.png)
+   ![](images/01R.png)
 
 5. Переходим в директорию с установленным QT (в моём случае это D:\QT\5.12.2\
    
@@ -91,23 +91,23 @@
 
 1. Открываем «Параметры», выбираем «Комплекты» и переходим на вкладку «Профили Qt»
 
-   ![](images/02.png)
+   ![](images/02R.png)
 
 2. Нажимаем кнопку «Добавить…» и указываем путь до `qmake.exe`
 
-   ![](images/03.png)
+   ![](images/03R.png)
 
 3. Вводим название для нового профиля и нажимаем кнопку «Применить»
 
-   ![](images/04.png)
+   ![](images/04R.png)
 
 4. Переходим на вкладку «Комплекты». Копируем комплект с соответствующим компилятором (в данном случае MSVC)
 
-   ![](images/05.png)
+   ![](images/05R.png)
 
 5. В свойствах нового комплекта выбираем новое название, а также выбираем только что добавленный нами профиль Qt. Нажимаем «ОК»
 
-   ![](images/06.png)
+   ![](images/06R.png)
 
 ## Подключение комплекта к существующему проекту
 
@@ -212,23 +212,23 @@
 
 1. Open “Options”, select “Kits” and go to the “Qt Profiles” tab
 
-   ![](images/02.png)
+   ![](images/02E.png)
 
 2. Click the "Add ..." button and specify the path to `qmake.exe`
 
-   ![](images/03.png)
+   ![](images/03E.png)
 
 3. Enter a name for the new profile and click the "Apply" button
 
-   ![](images/04.png)
+   ![](images/04E.png)
 
 4. Go to the “Kits” tab. Copy the kit with the appropriate compiler (in this case, MSVC)
 
-   ![](images/05.png)
+   ![](images/05E.png)
 
 5. In the properties of the new kit, select a new name, and also select the Qt profile we just added. Click OK
 
-   ![](images/06.png)
+   ![](images/06E.png)
 
 ## Connecting a kit to an existing project
 
