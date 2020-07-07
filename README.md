@@ -183,7 +183,7 @@
    D:\QT\5.12.2\Src\configure.bat -debug-and-release -static -static-runtime -opensource -confirm-license -platform win32-msvc -qt-zlib -qt-libpng -qt-libjpeg -nomake examples -nomake tests -no-opengl -skip qtscript -prefix "D:\QT\5.12.2\MSCV-Static"
    ```
 
-   Ключи:
+   Keys:
    - `skip <module>` - excludes a separate submodule from the assembly process
    - `nomake examples` - excludes sample programs from the build process
    - `nomake tests` - excludes tests from the assembly process
