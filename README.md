@@ -2,7 +2,7 @@
 
 #### EN: This is an instruction for creating a static link (assembly) for QT 5.9 - 5.15, using this instruction you can make portable versions of your projects.
 
-# -------------------------------------------------------------------------- 
+# ----------------------------------------------------------------- 
 
 # (RU) Руководство по сборке Qt со статической компоновкой под Windows
 
